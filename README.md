@@ -260,6 +260,7 @@ Add your homepage screenshot here:
 
 <img width="1897" height="906" alt="Screenshot 2026-06-14 133213" src="https://github.com/user-attachments/assets/0fac3606-550f-4e6a-a8ec-5c25f541d47e" />
 
+<img width="1892" height="900" alt="Screenshot 2026-06-14 134907" src="https://github.com/user-attachments/assets/8c7e7134-6915-47d0-9692-fd26c8821f5b" />
 
 # 🛠 Technology Stack
 
