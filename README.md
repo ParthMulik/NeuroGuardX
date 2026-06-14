@@ -52,16 +52,21 @@ H --> I[PDF Report Generator]
 
 ```mermaid
 sequenceDiagram
+    participant User
+    participant NGX as NeuroGuard-X
+    participant Engine as Analysis Engine
+    participant Threat as Threat Engine
+    participant Core as Neuromorphic Core
+    participant SOC as SOC Dashboard
 
-User->>NeuroGuard-X: Upload File
-NeuroGuard-X->>Analysis Engine: Extract Metadata
-Analysis Engine->>Threat Engine: Evaluate Indicators
-Threat Engine->>Neuromorphic Core: Generate Events
-Neuromorphic Core->>SOC Dashboard: Alert
-SOC Dashboard->>Analyst: Threat Report
+    User->>NGX: Upload File
+    NGX->>Engine: Extract Metadata
+    Engine->>Threat: Analyze Indicators
+    Threat->>Core: Generate Events
+    Core->>SOC: Trigger Alert
+    SOC-->>User: Display Threat Report
 ```
 
----
 
 # 📊 Threat Detection Performance
 
