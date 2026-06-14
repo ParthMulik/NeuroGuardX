@@ -1,211 +1,79 @@
-# 🛡️ NeuroGuard-X
-### Enterprise Neuromorphic Cyber Defense Platform
+# 🚀 NeuroVision X
 
-> Detect. Analyze. Simulate. Defend.
+## Event-Driven Neuromorphic Video Intelligence Platform
 
-NeuroGuard-X is a next-generation cyber defense platform that combines event-driven neuromorphic intelligence, threat simulation, behavioral analysis, forensic investigation, and automated SOC reporting into a unified security ecosystem.
+NeuroVision X is a futuristic AI-powered surveillance and smart vision platform inspired by neuromorphic computing principles. Unlike traditional computer vision systems that process every frame continuously, NeuroVision X processes only meaningful visual events, significantly reducing computational load, power consumption, storage requirements, and latency.
 
-Unlike traditional signature-based security tools, NeuroGuard-X focuses on behavioral events and threat patterns, enabling rapid identification of advanced malware, ransomware, trojans, insider threats, and zero-day attacks.
-
----
-
-# 🎯 Project Overview
-
-NeuroGuard-X provides:
-
-- File Threat Analysis
-- Attack Simulation Center
-- Neuromorphic Threat Detection
-- Security Operations Dashboard
-- Digital Forensics Lab
-- Automated Threat Reporting
-- Behavioral Intelligence Engine
+The platform demonstrates how Event-Driven AI can power next-generation smart cities, intelligent surveillance systems, traffic monitoring solutions, industrial safety systems, and edge AI devices.
 
 ---
 
-# 🏗 Platform Architecture
+# 🎯 Problem Statement
 
-```mermaid
-flowchart TD
+Develop a proof-of-concept application leveraging:
 
-A[File Upload]
---> B[Threat Analysis Engine]
-
-B --> C[Indicator Extraction]
-
-C --> D[Neuromorphic Event Processor]
-
-D --> E[Threat Classification]
-
-E --> F[SOC Dashboard]
-
-E --> G[Attack Simulator]
-
-E --> H[Forensics Lab]
-
-H --> I[PDF Report Generator]
-```
+- Event-Driven Neuromorphic Principles
+- Asynchronous Data Streaming
+- Spike-Timing-Dependent Processing
+- Low-Power Real-Time Video Analysis
 
 ---
 
-# ⚡ Threat Detection Workflow
+# ✨ Features
 
-```mermaid
-sequenceDiagram
-    participant User
-    participant NGX as NeuroGuard-X
-    participant Engine as Analysis Engine
-    participant Threat as Threat Engine
-    participant Core as Neuromorphic Core
-    participant SOC as SOC Dashboard
+## 🧠 Neuromorphic Processing Simulator
 
-    User->>NGX: Upload File
-    NGX->>Engine: Extract Metadata
-    Engine->>Threat: Analyze Indicators
-    Threat->>Core: Generate Events
-    Core->>SOC: Trigger Alert
-    SOC-->>User: Display Threat Report
-```
+- Event-based video analysis
+- Motion detection engine
+- Spike generation system
+- Frame difference processing
+- Real-time event visualization
 
+## 🎥 Smart CCTV Command Center
 
-# 📊 Threat Detection Performance
+- Multi-camera surveillance dashboard
+- Live CCTV-style video feeds
+- Real-time timestamps
+- Camera status indicators
+- Event monitoring system
 
-```mermaid
-xychart-beta
-title "Detection Accuracy"
-x-axis ["Traditional AV","Sandbox","NeuroGuard-X"]
-y-axis "Accuracy %" 0 --> 100
-bar [72,88,99]
-```
+## ⚔ Neuro Battle Arena
 
----
+- Traditional AI vs Neuromorphic AI
+- Processing comparison
+- Latency comparison
+- Power consumption comparison
+- Storage comparison
 
-# 📈 Threat Classification Efficiency
+## 🚦 Smart Traffic Monitoring
 
-```mermaid
-xychart-beta
-title "Threat Processing Speed"
-x-axis ["Traditional Engine","ML Detection","NeuroGuard-X"]
-y-axis "Milliseconds"
-bar [320,150,1]
-```
+- Vehicle movement simulation
+- Congestion detection
+- Event-triggered processing
+- Traffic analytics dashboard
 
----
+## 📊 Interactive Analytics
 
-# 🔥 Threat Distribution
+- Live charts
+- Event stream analysis
+- Spike frequency monitoring
+- Processing load visualization
+- Energy savings metrics
 
-```mermaid
-pie title Threat Types Detected
-    "Ransomware" : 35
-    "Trojans" : 25
-    "Spyware" : 15
-    "Zero-Day" : 15
-    "Insider Threats" : 10
-```
+## 🧬 STDP Learning Visualization
 
----
+- Spike-Timing-Dependent Processing
+- Synaptic adaptation simulation
+- Neural activity visualization
 
-# 🧠 Neuromorphic Intelligence Pipeline
+## 🌍 Smart City Applications
 
-```mermaid
-flowchart LR
-
-A[Behavior Event]
---> B[Spike Generation]
-
-B --> C[Neuromorphic Processor]
-
-C --> D[Pattern Learning]
-
-D --> E[Threat Classification]
-
-E --> F[Defense Action]
-```
-
----
-
-# 🚨 Security Operations Center
-
-Features:
-
-- Real-Time Alert Feed
-- Threat Intelligence Dashboard
-- Endpoint Monitoring
-- Network Monitoring
-- Event Correlation
-- Live Threat Scoring
-- Behavioral Analytics
-
----
-
-# 🎮 Attack Simulation Center
-
-Supported Attack Vectors:
-
-### Ransomware
-
-- File Encryption
-- Lateral Movement
-- Persistence Attempts
-
-### Trojan
-
-- Command & Control Communication
-- Process Injection
-- Credential Theft
-
-### Insider Threat
-
-- Data Exfiltration
-- Privilege Abuse
-- Unauthorized Access
-
-### Zero-Day Exploit
-
-- Memory Corruption
-- Unknown Payload Execution
-- Signature Evasion
-
-### DDoS Attack
-
-- Traffic Flooding
-- Resource Exhaustion
-- Service Disruption
-
----
-
-# 🔬 Digital Forensics Lab
-
-Capabilities:
-
-- Timeline Reconstruction
-- Behavioral Analysis
-- IOC Extraction
-- Threat Attribution
-- Event Correlation
-- Incident Investigation
-
----
-
-# 📊 Risk Assessment Matrix
-
-```mermaid
-quadrantChart
-title Threat Risk Matrix
-x-axis Low Impact --> High Impact
-y-axis Low Probability --> High Probability
-
-quadrant-1 Monitor
-quadrant-2 Critical
-quadrant-3 Ignore
-quadrant-4 Investigate
-
-Ransomware:[0.9,0.9]
-Trojan:[0.7,0.8]
-Insider Threat:[0.8,0.6]
-DDoS:[0.6,0.7]
-Zero-Day:[0.95,0.95]
-```
+- Traffic Monitoring
+- Smart Surveillance
+- Agriculture Monitoring
+- Industrial Safety
+- Drone Intelligence
+- Defence Systems
 
 ---
 
@@ -215,95 +83,277 @@ Zero-Day:[0.95,0.95]
 
 - HTML5
 - CSS3
-- JavaScript
-- Tailwind CSS
+- JavaScript (ES6)
 
 ## Visualization
 
-- Chart.js
+- Three.js
 - Canvas API
-- Lucide Icons
+- WebGL
+- Chart.js
+- GSAP
 
-## Security Components
+## User Interface
 
-- Threat Scoring Engine
-- Behavioral Analysis Engine
-- Neuromorphic Event Processor
-- IOC Correlation System
+- Glassmorphism
+- Responsive Design
+- Custom Animations
+- Interactive Dashboards
 
-## Reporting
+## Browser APIs
 
-- HTML2PDF
-- Automated Investigation Reports
-- SOC Intelligence Reports
+- WebRTC
+- Media Devices API
+- Canvas Rendering
+- Real-Time Video Processing
 
 ---
 
-# 📈 Platform Metrics
+# 📂 Project Structure
 
-```mermaid
-xychart-beta
-title "System Capabilities"
-x-axis ["Detection","Automation","Forensics","Reporting","Simulation"]
-y-axis "Capability Score"
-bar [99,95,97,96,98]
+```bash
+NeuroVision-X/
+│
+├── index.html
+│
+├── Embedded CSS
+│
+├── Embedded JavaScript
+│
+├── CCTV Monitoring Module
+│
+├── Neuromorphic Simulator
+│
+├── Neuro Battle Arena
+│
+├── Smart Traffic Monitoring
+│
+├── Analytics Dashboard
+│
+├── STDP Learning Module
+│
+└── Smart City Applications
 ```
 
 ---
 
-# 🎯 Key Features
+# ⚙️ Setup & Installation
 
-✅ File Upload Scanner
+## Method 1: Direct Execution
 
-✅ Threat Scoring Engine
+1. Download the project.
 
-✅ Neuromorphic Detection
+2. Extract the ZIP file.
 
-✅ Attack Simulation Center
+3. Open:
 
-✅ SOC Dashboard
+```bash
+index.html
+```
 
-✅ Live Alert Feed
+using any modern browser.
 
-✅ Behavioral Intelligence
+Recommended browsers:
 
-✅ Digital Forensics
+- Google Chrome
+- Microsoft Edge
+- Brave
+- Firefox
 
-✅ IOC Extraction
-
-✅ Automated PDF Reports
-
----
-
-# 🚀 Future Scope
-
-- Intel Loihi Integration
-- Neuromorphic Hardware Deployment
-- Edge Security Appliances
-- National Cyber Defense Grid
-- Autonomous Threat Hunting
-- AI-Powered Threat Prediction
-- Global Threat Intelligence Sharing
+No installation required.
 
 ---
 
-# 🏆 Innovation Highlights
+## Method 2: Local Server
 
-- Event-Driven Cyber Defense
-- Neuromorphic Threat Detection
-- Real-Time Threat Intelligence
-- Autonomous Security Operations
-- Behavioral Malware Analysis
-- Zero-Day Threat Detection
-- Automated Investigation Reports
-- National-Scale Security Architecture
+Using VS Code:
+
+Install:
+
+- Live Server Extension
+
+Run:
+
+```bash
+Right Click → Open with Live Server
+```
+
+Application starts automatically.
 
 ---
 
-# 👨‍💻 Team Diamonds
+# 🚀 Usage
 
-### NeuroGuard-X
+## Step 1
 
-**Enterprise Neuromorphic Cyber Defense Platform**
+Launch NeuroVision X.
 
-*"Transforming cybersecurity from reactive defense to intelligent autonomous protection."*
+## Step 2
+
+Open the Neuromorphic Simulator.
+
+## Step 3
+
+Upload a video or enable webcam access.
+
+## Step 4
+
+Observe:
+
+- Event Frames
+- Spike Generation
+- Motion Detection
+- Power Savings
+
+## Step 5
+
+Open Neuro Battle Arena.
+
+Compare:
+
+- Traditional AI
+- Neuromorphic AI
+
+## Step 6
+
+Explore Smart Traffic Monitoring and Smart City applications.
+
+---
+
+# 📊 Expected Performance
+
+| Metric | Traditional AI | NeuroVision X |
+|----------|----------|----------|
+| Frames Processed | 10,000 | 350 |
+| Power Usage | 100% | 8% |
+| Storage Usage | 100 MB | 4 MB |
+| Latency | 120 ms | 18 ms |
+
+---
+
+# 🎯 Applications
+
+## 🚦 Smart Traffic Monitoring
+
+- Vehicle Detection
+- Congestion Analysis
+- Accident Detection
+- Smart Signals
+
+## 🎥 Smart Surveillance
+
+- Intrusion Detection
+- Event Monitoring
+- Perimeter Security
+
+## 🌱 Agriculture
+
+- Crop Monitoring
+- Disease Detection
+- Precision Spraying
+
+## 🏭 Industrial Safety
+
+- Hazard Detection
+- Worker Monitoring
+- Equipment Analysis
+
+## 🚁 Drone Intelligence
+
+- Autonomous Monitoring
+- Event-Based Navigation
+
+## 🛡 Defence & Security
+
+- Border Surveillance
+- Threat Detection
+- Critical Infrastructure Protection
+
+---
+
+# 📸 Screenshots
+
+## Landing Page
+
+Add screenshot here:
+
+```markdown
+![Landing Page](screenshots/homepage.png)
+```
+
+## CCTV Command Center
+
+```markdown
+![CCTV Dashboard](screenshots/cctv-dashboard.png)
+```
+
+## Neuromorphic Simulator
+
+```markdown
+![Simulator](screenshots/simulator.png)
+```
+
+## Neuro Battle Arena
+
+```markdown
+![Battle Arena](screenshots/battle-arena.png)
+```
+
+## Smart Traffic Monitoring
+
+```markdown
+![Traffic Monitoring](screenshots/traffic-monitoring.png)
+```
+
+---
+
+# 🌟 Innovation Highlights
+
+✅ Event-Driven Processing
+
+✅ Neuromorphic Computing
+
+✅ Brain-Inspired Intelligence
+
+✅ Smart CCTV Analytics
+
+✅ Smart Traffic Monitoring
+
+✅ Real-Time Event Detection
+
+✅ Low-Power Computing
+
+✅ Edge AI Ready
+
+✅ Sustainable AI Architecture
+
+---
+
+# 🔮 Future Scope
+
+- Neuromorphic Hardware Integration
+- Intel Loihi Deployment
+- Smart City Integration
+- Autonomous Traffic Infrastructure
+- AI-Powered Drone Networks
+- Large-Scale Surveillance Systems
+- Edge AI Camera Deployment
+
+---
+
+# 👨‍💻 Team
+
+Team Name: Team Daimonds
+Project: NeuroVision X
+
+Theme: Event-Driven Neuromorphic Computing
+
+---
+
+# 📜 License
+
+This project is developed for educational, research, and hackathon purposes.
+
+Copyright © 2026 Team Diamonds
+
+All Rights Reserved.
