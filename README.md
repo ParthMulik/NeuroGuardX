@@ -259,7 +259,7 @@ pie title Detected Threat Categories
 Add your homepage screenshot here:
 
 ```markdown
-![NeuroGuard-X Dashboard](screenshots/home-dashboard.png)
+![NeuroGuard-X Dashboard]("C:\Users\Parth\OneDrive\Pictures\Screenshots\Screenshot 2026-06-14 133213.png".png)
 ```
 
 Since you currently have only one screenshot, displaying the homepage dashboard is sufficient.
