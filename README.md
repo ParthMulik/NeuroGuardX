@@ -304,6 +304,6 @@ Add your homepage screenshot here:
 
 This project was developed for educational, research, and hackathon purposes.
 
-Copyright © 2026 
+Copyright © 2026 Parth
 
 All Rights Reserved.
